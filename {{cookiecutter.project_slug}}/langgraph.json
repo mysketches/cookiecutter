@@ -1,0 +1,16 @@
+{
+    "name": "{{cookiecutter.project_slug}}",
+    "description": "{{cookiecutter.description}}",
+    "python_dependencies": {
+      "file": "requirements.txt"
+    },
+    "graphs": [
+      {
+        "name": "main_graph",
+        "path": "src.graph_builder:build_graph"
+      }
+    ],
+    "environment_variables": [
+      "OPENROUTER_API_KEY"
+    ]
+  }
