@@ -7,3 +7,4 @@ langchain_openai
 openai
 pydantic
 typing
+ipython
