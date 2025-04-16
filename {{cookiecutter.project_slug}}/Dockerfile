@@ -12,7 +12,7 @@ RUN pip install -r requirements.txt
 RUN pip install -U "langgraph-cli[inmem]"
 RUN mkdir /home/project
 
-ENV LANGSMITH_API_KEY={{ cookiecutter.langsmith_api_key }}
+ENV LANGSMITH_API_KEY="{{ cookiecutter.langsmith_api_key }}"
 
 EXPOSE 2024
 
