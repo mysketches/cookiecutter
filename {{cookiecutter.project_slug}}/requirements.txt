@@ -8,3 +8,8 @@ openai
 pydantic
 typing
 ipython
+langgraph-sdk
+langgraph-cli[inmem]
+
+streamlit
+langchain-tavily
