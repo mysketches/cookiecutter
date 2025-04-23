@@ -2,6 +2,6 @@
     "project_name": "My Langgraph",
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-').replace('_', '-') }}",
     "description": "No description",
-    "openrouter_api_key": "{{ cookiecutter.openrouter_api_key }}",
-    "langsmith_api_key": "{{ cookiecutter.langsmith_api_key }}"
+    "openrouter_api_key": "xxx",
+    "langsmith_api_key": "xxx"
 }
