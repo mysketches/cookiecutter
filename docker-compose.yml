@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  langgraph-app:
+    image: langgraph:latest
+    container_name: {{ cookiecutter.project_slug }}
+    ports:
+      - "2024:2024"
+      - "8501:8501"
+    volumes:
+      - ./:/home/project
+    #command: streamlit run src/streamlit.py
+    command: langgraph dev
+    stdin_open: true  # equivalent to -i
+    tty: true        # equivalent to -t
+    restart: "no"    # equivalent to --rm 
